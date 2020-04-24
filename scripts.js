@@ -1,3 +1,7 @@
+// practice 2020.04.24.
+
+console.log('Nora Fekeshazy');
+
 // The Third part
 
 let name = 'Adam';
