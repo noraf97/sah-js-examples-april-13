@@ -1,8 +1,6 @@
-// practice 2020.04.24.
 
-console.log('Nora Fekeshazy');
-
-// The Third part
+// 2020.04.23. 
+//The Third part
 
 let name = 'Adam';
 
@@ -70,6 +68,8 @@ colors.forEach((color) => {
 for (let i = 0; i < 100; i++) {
   console.log(i);
 }
+
+
 
 // This a JavaScript comment
 
@@ -211,3 +211,74 @@ for (let i = 0; i < 100; i++) {
 // (2) ["lime", "green"]
 // person
 // {name: "Peti", age: 33, oldEnoughToDrive: true, favoriteColors: Array(2)}age: 33favoriteColors: (2) ["lime", "green"]0: "lime"1: "green"length: 2__proto__: Array(0)name: "Peti"oldEnoughToDrive: true__proto__: Object
+
+
+// practice 2020.04.24.
+
+let myVariable = false;
+if (myVariable!== true) {
+  console.log('The condition has been evaluated to true');
+}
+
+let a = 7;
+if (a < 5) {
+  console.log(a / 2);
+} else {
+  console.log(a * 2);
+}
+//will print 14
+
+let a = 2;
+if (a < 5) {
+  console.log(a / 2);
+} else {
+  console.log(a * 2);
+}
+//will print 1
+
+console.log('Nora Fekeshazy');
+
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+//will print 0, 1, 2, ..., 9
+
+for (let i = 0; i < 10; i = i + 2) {
+  console.log(i);
+}
+//will print even numbers between 0 & 9
+
+let printNumbers = (n) => {
+  for (let i = 1; i < n; i++) {
+    console.log(i);
+  }
+}
+
+console.log(printNumbers(16))
+// will print 1 - 15
+
+console.log(printNumbers(21)) 
+// will print 1 - 20
+
+let greeting = (name) => {
+  return 'Hello ' + name + '!';
+}
+
+console.log(greeting('Mark'))
+// will print Hello Mark!
+
+
+// practice 2020.04.25.
+
+let myList = [0, 3, 6, 7, 9]
+
+  for(let i = 0; i < myList.length; i++) {
+    console.log(myList[i]);
+  }
+
+let myNumbers = [10, 20, 30, 50, 12]
+
+myNumbers.forEach(function(value) {
+  console.log(value)
+})
+
